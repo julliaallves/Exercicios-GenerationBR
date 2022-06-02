@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Meu primeiro app</string>
+    <string name="ol_mundo">Olá, mundo!</string>
+    <string name="usu_rio">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="entrar">Entrar</string>
+    <string name="todo">TODO</string>
+</resources>
