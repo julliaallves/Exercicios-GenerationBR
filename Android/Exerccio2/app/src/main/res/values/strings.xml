@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Exerccdois</string>
+    <string name="d6">D6</string>
+    <string name="todo">TODO</string>
+    <string name="d12">D12</string>
+    <string name="_1">1</string>
+    <string name="d20">D20</string>
+    <string name="d10">d10</string>
+</resources>
