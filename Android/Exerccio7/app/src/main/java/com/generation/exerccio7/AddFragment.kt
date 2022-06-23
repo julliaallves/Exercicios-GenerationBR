@@ -23,7 +23,7 @@ class AddFragment : Fragment() {
         // Inflate the layout for this fragment
         binding = FragmentAddBinding.inflate(layoutInflater, container, false)
 
-        mainViewModel = ViewModelProvider(this).get(mainViewModel::class.java)
+        mainViewModel = ViewModelProvider(this).get(MainViewModel::class.java)
 
         binding.buttonAdd.setOnClickListener {
             inserirNoBanco()
@@ -33,7 +33,7 @@ class AddFragment : Fragment() {
     }
 
     fun verificarCampos(nome: String, sobrenome: String, idade: String): Boolean{
-        return !(nome == "" || sobrenome = "" || idade == "")
+        return !(nome == "" || sobrenome == "" || idade == "")
     }
 
     fun inserirNoBanco(){
